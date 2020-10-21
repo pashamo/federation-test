@@ -4,23 +4,16 @@
   "description": "A minimal reproducible test case for mercurius team",
   "private": true,
   "scripts": {
-    "gateway": "ts-node src/gateway.ts",
-    "serviceA": "ts-node src/serviceA.ts",
-    "serviceB": "ts-node src/serviceB.ts"
+    "gateway": "node src/gateway.js",
+    "serviceA": "node src/serviceA.js",
+    "serviceB": "node src/serviceB.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-lambda-fastify": "^1.4.4",
     "fastify": "^3.6.0",
     "fastify-cors": "^4.1.0",
     "mercurius": "^6.2.0"
-  },
-  "devDependencies": {
-    "@tsconfig/node12": "^1.0.7",
-    "@types/node": "^14.11.10",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.3"
   }
 }

@@ -1,6 +1,6 @@
-import fastify from 'fastify';
-import mercurius from 'mercurius';
-import fastifyCors from 'fastify-cors';
+const fastify = require('fastify');
+const mercurius = require('mercurius');
+const fastifyCors = require('fastify-cors');
 
 const app = fastify({logger:true});
 app.register(fastifyCors);
