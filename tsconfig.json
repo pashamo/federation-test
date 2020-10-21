@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node12/tsconfig.json",
+  "compilerOptions": {
+    /* Basic Options */
+    "allowJs": true /* Allow javascript files to be compiled. */,
+    "outDir": "build" /* Redirect output structure to the directory. */,
+
+    /* Strict Type-Checking Options */
+    "noImplicitAny": true /* Raise error on expressions and declarations with an implied 'any' type. */,
+
+    /* Advanced Options */
+    "resolveJsonModule": true /* Include modules imported with '.json' extension */
+  },
+  "include": ["src/*"],
+  "exclude": ["node_modules"]
+}
